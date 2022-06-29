@@ -5,3 +5,7 @@
 
 - Word guess
 - https://www.geeksforgeeks.org/python-program-for-word-guessing-game/
+
+- Screenshot
+- https://www.geeksforgeeks.org/taking-screenshots-using-pyscreenshot-in-python/
+- install module - pip install pyscreenshot
