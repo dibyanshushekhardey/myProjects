@@ -9,3 +9,6 @@
  **Screenshot**
 - https://www.geeksforgeeks.org/taking-screenshots-using-pyscreenshot-in-python/
 - install module - pip install pyscreenshot
+
+**Snake game**
+- https://www.youtube.com/watch?v=bfRwxS5d0SI
