@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Roboto+Mono:wght@264;300;329;331;400&display=swap');
+
+body {
+    background-color: rgb(113, 127, 235);
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #0f065c;
+}
+
+a:hover{
+    color: rgb(73, 20, 197);
+}
+.wrapper {
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    /* border-radius: 20px; */
+}
+
+header {
+    background-color: #0f065c;
+    color: aliceblue;
+    
+}
+
+header .brand {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 150%;
+    padding: 40px;
+}
+
+header .brand span {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70%;
+    padding: 20px;
+}
+
+.hero {
+    background:  #4d42b9 url('..assets/images/blog.png') center no-repeat;
+}
+
+.hero img {
+    height: 25rem;
+    width: 28rem;
+    margin-left: 18rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+content{
+    overflow: hidden;
+    display: block;
+    padding: 50px;
+}
+
+main{
+    float: left;
+    width: 70%;
+}
+
+aside{
+    float: right;
+}
+
+aside .section{
+    background-color: #e3e2ec;
+    color:#0f065c;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+aside .section h3{
+    background-color: #dddcea ;
+    color: #0f065c;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: -10px;
+    border-radius: 10px;
+}
+
+aside a{
+    padding: 10px 0;
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    margin-bottom: 60px;
+}
+
+article h2{
+    margin-bottom: 0;
+    font-size: 171%;
+    color: #150793;
+    padding: 0;
+}
+
+article h2{
+    margin-top: 0;
+    font-size: 100%;
+    color: #0c0451;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+    clear: both;
+    display: block;
+}
