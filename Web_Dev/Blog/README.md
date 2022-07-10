@@ -1,3 +1,5 @@
+https://new-dsd.github.io/blog/
+
 **Resources**
 - https://fonts.google.com/specimen/Roboto#standard-styles
 - https://undraw.co/search
