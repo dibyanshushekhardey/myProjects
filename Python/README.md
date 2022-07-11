@@ -13,3 +13,5 @@
 **Snake game**
 - https://www.youtube.com/watch?v=bfRwxS5d0SI
 
+**ticTacToe**
+- https://www.askpython.com/python/examples/tic-tac-toe-using-python
