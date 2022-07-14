@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@264;300;329;331&display=swap');
+
+:root{
+    --bg-color:#1b1b32;
+    --text-color:#f5f6f7;
+    --main-blue: #45567d;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:hover{
+  color: var(--main-blue);
+}
+
+html {
+  box-sizing: border-box;
+  
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto mono;
+    font-size: 16px;   
+    background-color:var(--bg-color);
+  }
+  
+h1 {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+/*navigation bar*/
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    background-color:var(--bg-color);
+    color: var(--text-color);
+    
+    z-index: 10;    
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color) ;
+}
+
+.nav-list a {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav-list a:hover {
+  color: var(--text-color);
+  background: var(--main-blue);
+}
+
+/*welcome section*/
+.welcome-section {
+  margin-top: -10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color);
+  padding-top: 1px;
+}
+
+.welcome-section > p {
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: var(--text-color);
+}
+
+/*skills*/
+.skills{
+  color: var(--bg-color);
+  max-width: 70rem;
+  margin: auto;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.skill-header{
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img{
+  padding: 1.25rem;
+}
+
+.icon{
+  width: 12rem;
+  height: 11rem;
+}
+
+.icon-card{
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  box-shadow: 0 2px 5px var(--main-blue);
+  padding: 20px;
+  margin: 10px;
+}
+
+
+/*projects section*/
+.projects{
+  max-width: 2000px;
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+  border-radius: 6px;
+  margin-top: -15rem;
+}
+
+.project-pic{
+  width: 60%;
+  height: 60%;
+}
+
+.projects-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.projects-title{
+  color:var(--text-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-title{
+  color:var(--text-color);
+  text-align: center;
+  
+}
+
+.project-container{
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.project-container p{
+  padding: 0.4rem;
+}
+
+.project-detail{
+  color:var(--text-color);
+  font-size: 15px;
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-tile{
+  background-color:var(--bg-color);
+  color: var(--primary-color);
+  text-align: center;   
+  border-radius: 11px;
+  box-shadow: 0 3px 5px var(--primary-shadow);
+  padding: 30px;
+  margin: 10px;
+}
+
+/* Contact section*/
+.contact-section {
+  margin-top: -10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 1rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  padding: 1rem;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+/*footer*/
+footer{
+  margin-top: -15rem;
+  font-size: 18px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 5rem 0 0 0;
+  text-align: center;  
+}
+
+/*projects responsive*/
+@media (max-width: 30.625em) {
+  .projects {
+    padding: 6rem 1rem;
+  }
+
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 980px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 460px) {
+  html {
+    font-size: 55%;
+  }
+}
